@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background: lightgray;
-    font-size: 18px;
+    font-size: 1em;
     font-family: 'Trebuchet MS','Lucida Sans', sans-serif;
 }
 header{
@@ -9,13 +9,34 @@ header{
     padding: 0;
     text-align: center;
 }
+main{
+    width: 920px;
+    background: #fff;
+    margin: 10px auto;
+}
+footer{
+    width: 920px;
+    padding: 5px 0px 5px 0px;
+    background: rgb(224, 219, 219);
+    margin: 10px auto;
+    text-align: center;
+    clear: both;
+}
 a{
+    color: #f7b600;
+    padding: 0px 0px 0px 5px;
+    text-decoration: none; 
+}
+hr{
+    margin:0;
+}
+#area-menu a{
     text-decoration: none;
     color: #fff;
     font-weight: 700;
     padding: 5px;
 }
-a:hover{
+#area-menu a:hover{
     color: #f7b600;
     background: #fff;
     border-radius: 3px;
@@ -25,11 +46,19 @@ a:hover{
     margin: 0;
     padding: 30px;
     color: #4e4e4e;
+    font-size: 2em;
 }
 #area-menu{
     margin: 0;
     padding-bottom: 30px;
     padding-left: 0;
+}
+#data-postagem{
+    display: block;
+    size: 0.8em;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid lightgray;
 }
 .menu{
     display: inline;
@@ -37,4 +66,77 @@ a:hover{
 }
 .branco{
     color: #fff;
+}
+.titulo-postagem{
+    margin: 15px 0px 0px 0px;
+    color: #f7b600;
+    font-size: 1.8em;
+}
+.postagem{
+    float: left;
+    background: #fff;
+    width: 600px;
+    padding: 10px;
+    display: inline;
+}
+.side{
+    float:right;
+    background: #fff;
+    width: 260px;
+    text-align: left;
+    clear: both;
+    padding-bottom: 5px;
+}
+.img-postagem{
+    width: 600px;
+    display: inline;
+}
+.link-texto{
+    color: #f7b600;
+    padding: 0px 0px 0px 5px;
+    text-decoration: none;
+}
+.link-texto:hover{
+    color: #f7b600;
+    padding: 0px 0px 0px 5px;
+    text-decoration: underline;
+}
+.titulo-postagem-side{
+    margin: 10px;
+    padding: 3px;
+    background: #ccc;
+    color: #4e4e4e;
+}
+.texto-postagem-side{
+margin: 5px 10px 5px 10px;
+}
+.link-aside{
+    color: #f7b600;
+    padding: 0px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.link-aside:hover{
+    color: #f7b600;
+    padding: 0px;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.titulo-categoria-side{
+    margin: 10px;
+    padding: 3px;
+    background: #ccc;
+    color: #4e4e4e;
+    margin-bottom: 3px;
+}
+.link-categoria-aside{
+    display: block;
+    margin-left: 10px;
+}
+.link-categoria-aside:hover{
+    display: block;
+    margin-left: 10px;
+    text-decoration: underline;
 }
