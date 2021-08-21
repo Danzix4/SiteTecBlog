@@ -1,8 +1,40 @@
 body{
     margin: 0;
     background: lightgray;
+    font-size: 18px;
+    font-family: 'Trebuchet MS','Lucida Sans', sans-serif;
 }
 header{
-    background: orange;
-    padding: 15px;
+    background: #f7b600;
+    padding: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;
+}
+a:hover{
+    color: #f7b600;
+    background: #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+#logo{
+    margin: 0;
+    padding: 30px;
+    color: #4e4e4e;
+}
+#area-menu{
+    margin: 0;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+.menu{
+    display: inline;
+    padding: 5px;
+}
+.branco{
+    color: #fff;
 }
